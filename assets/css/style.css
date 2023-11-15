@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.mainHeader{
+    position: fixed;
+    width: 0;
+    top: 0;
+    height: 100px;
+    color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background: #121212;
+}
+
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.logo p{
+    font-size: 32px;
+    color: #f2f2f2;
+    color: #22acac;
+    font-weight: 800;
+}
+.mainMenu ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.mainMenu ul li{
+    list-style: none;
+}
+.mainMenu ul li a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.mainHero{
+    min-height: 100vh;
+    background-image: url(https://revista.drclas.harvard.edu/files/2020/10/dusk_phase3-3-IN-EXHIBIT.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 90px;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f2f2f2;
+    flex-direction: column;
+}
+.container h1{
+    font-size: 64px;
+    font-weight: 100;
+}
+.container h2{
+    font-size: 84px;
+    font-weight: 300;
+}
+.container a{
+    color: #22acac;
+    font-size: 24px;
+}
+
+
+
+.facts{
+    width: 100%;
+    padding: 30px 0;
+    color: #f2f2f2;
+    background: #121212;
+}
+.titlefacts{
+    font-size: 64px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.facts h2{
+    font-size: 32px;
+    font-weight: 100;
+    
+}
+.fact1{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.factImgContainer{width: 40%;}
+.factImgContainer img{
+    width: 100%;
+}
+.textContainer{
+    width: 40%;
+}
+.fact3{
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fact3 a{
+    color: #22acac;
+}
+.fact3 p{
+    margin: 20px 0;
+}
+.mainfooter{
+    font-size: 10px;
+    background: #121212;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+}
+.containerAbout{
+    min-height: 100vh;
+    color: #22acac;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://static01.nyt.com/images/2022/04/04/multimedia/15ai-nocode/15ai-nocode-videoSixteenByNineJumbo1600.jpg);
+    flex-direction: column;
+    font-size: 250px;
+    color: #f2f2f2;
+    font-weight: 800;
+    text-align: center;
+}
+.dj{
+    text-align: center;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.dj a{
+    color: #22acac;font-size: 48px;
+}
+
+.honesty{
+    min-height: 100vh;
+    color: #f2f2f2;
+    background: #121212;
+}
+.honesty h1{
+    font-weight: 100;
+    font-size: 64px;
+}
+.honesty a{
+    font-weight: 100;
+    font-size: 32px;
+    color: #22acac;
+    margin: 2px;
+}
+.crazy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
